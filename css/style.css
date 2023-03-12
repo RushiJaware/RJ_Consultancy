@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,500&family=Playfair+Display+SC:ital@1&display=swap');
+
+body {
+    /* background-color: #767676; */
+    background-image: url(x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    /* margin-right: 200px; */
+    background-attachment: fixed;
+    /* background-blend-mode: normal; */
+    /* background-size: 100%; */
+    align-items: ;
+}
+
+a {
+    /* background-color: white; */
+    font-size: 25px;
+    color: blue;
+
+}
+
+a:hover {
+    /* background-color: #90EE90; */
+}
+
+p {
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    text-shadow: 2px 2px 3px red;
+}
+
+h1 {
+    background-color: #fffff449;
+    font-size: 75px;
+    /* margin: 35px; */
+    /* padding: 25px; */
+    text-shadow: 0 0 10px blue;
+    text-align: center;
+    border-radius: 55%;
+    /* align-items: center; */
+
+}
+
+h2 {
+    /* background-color: white; */
+    margin: 35px;
+    padding: 25px;
+    font-size: 45px;
+    text-shadow: 3px 3px 3px yellow, 0 0 55px yellow, 0 0 5px yellow;
+}
+
+h3 {
+    color: rgba(10, 144, 233, 0.973);
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 0 0 35px yellow;
+}
+
+
+.rdj {
+    background-color: #0714038c;
+    border-style: solid;
+    border-color: rgba(101, 10, 248, 0.322);
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 50px;
+    cursor: pointer;
+
+}
+
+nav {
+    /* background-color: white; */
+    color: rgba(55, 247, 16, 0.418);
+    /* margin-left: auto; */
+    margin-right: 20px;
+    text-align: right;
+    text-shadow: 0 0 5px green;
+    text-transform: uppercase;
+    font-weight: 800;
+
+}
+
+
+.ishover {
+    display: visible;
+}
+
+.lable {
+    font-size: 25px;
+    align-items: center;
+    text-shadow: 0 0 2px blue;
+
+
+}
+
+button {
+
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: 0 0 55px rgba(110, 17, 231, 0.76);
+    font-size: 25px;
+}
+
+.btn {
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 700;
+    box-shadow: 2px 2px 5px rgb(236, 0, 0);
+    font-size: 45px;
+
+
+}
+
+input {
+    width: 30%;
+    box-sizing: border-box;
+    border: 2px solid #0f0000;
+    border-radius: 4px;
+    font-size: 26px;
+
+}
+
+
+@media screen and (max-width: 1000px) {
+    .column-left, .column-middle, .column-right {
+      width: 100%;
+    }
+  }
