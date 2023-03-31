@@ -2,7 +2,7 @@
 
 body {
     /* background-color: #767676; */
-    background-image: url(x.jpg);
+    background-image: url(x2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right top;
@@ -10,7 +10,7 @@ body {
     background-attachment: fixed;
     /* background-blend-mode: normal; */
     /* background-size: 100%; */
-    align-items: ;
+    align-items:center;
 }
 
 a {
